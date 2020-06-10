@@ -12,7 +12,7 @@ package sagar;
 
 public class ArrayManipulation1 {
 	
-	int[] arr = {1,2,3,4,5,6,7,8,9,10,40,3,2};
+	int[] arr = {1,1,1,3,4,5,6,7,8,9,10,10,20,10,3,2};
 	int len = arr.length;
 	static int count = 0;
 
@@ -40,7 +40,7 @@ public class ArrayManipulation1 {
 			
 			if(leftSum==rightSum)
 			{
-				System.out.println(arr[i]+" is a Middle Man");
+				System.out.println(arr[i]+" that is present at "+i+"th"+" position is the Middle Man.");
 				count++;
 			}	
 		}
