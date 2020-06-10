@@ -12,7 +12,7 @@ package sagar;
 
 public class ArrayManipulation1 {
 	
-	int[] arr = {1,2,3,4,5,10};
+	int[] arr = {1,2,3,4,5,6,7,8,9,10,40,3,2};
 	int len = arr.length;
 	static int count = 0;
 
