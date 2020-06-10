@@ -46,7 +46,7 @@ public class ArrayManipulation1 {
 		}
 		if(count==0)
 		{
-			System.out.println("No Middle Man Found");
+			System.out.println("No Middle Man Found.");
 		}
 	}
 
