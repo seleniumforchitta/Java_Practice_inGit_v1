@@ -2,7 +2,7 @@ package Most_Important_Java_Programs;
 
 import java.util.Random;
 
-import org.apache.commons.lang3.RandomStringUtils;
+//import org.apache.commons.lang3.RandomStringUtils;
 
 public class Generate_Random_Number {
 
@@ -23,11 +23,18 @@ public class Generate_Random_Number {
 		System.out.println(Math.random()); //Rnadom decimal number
 		
 		//Approach1 - Apache commons-lang API
+		/*
+		 * 
+		 * Commented by Priya as Idont have below packages 
+		 * 
 		String randNum = RandomStringUtils.randomNumeric(3);
+		 
 		System.out.println(randNum);
 		
 		String randStr = RandomStringUtils.randomAlphabetic(3);
 		System.out.println(randStr);
+		
+		*/
 
 	}
 
