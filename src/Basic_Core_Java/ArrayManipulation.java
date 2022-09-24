@@ -9,7 +9,7 @@ public class ArrayManipulation {
 
 		
 		int[] a = {13,5,23,4,7,8};
-		int temp =0;
+		int temp = 0;
 		for(int i=0;i<a.length;i++)
 		{
 			for(int j=i+1;j<a.length;j++)

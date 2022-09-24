@@ -1,7 +1,6 @@
 package Most_Important_Java_Programs;
 
 import java.util.Random;
-
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class Generate_Random_Number {

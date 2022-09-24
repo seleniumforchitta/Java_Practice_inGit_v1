@@ -28,7 +28,7 @@ public class FindRatio {
 		
 		System.out.println("percentage of positive number - "+pos/a.length);
 		System.out.println("percentage of negative number - "+neg/a.length);
-		System.out.println("percentage of zero- "+zer/a.length);
+		System.out.println("percentage of zero- vv "+zer/a.length);
 
 	}
 

@@ -21,8 +21,7 @@ public class CountWords {
 			
 		}
 		
-		System.out.print(count);
-		System.out.println(a);
+		System.out.print(count+" - "+a);
 	}
 
 }
