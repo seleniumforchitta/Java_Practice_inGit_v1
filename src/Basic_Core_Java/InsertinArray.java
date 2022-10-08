@@ -14,8 +14,6 @@ public class InsertinArray {
 		int val = 30;
 		
 		System.out.println(Arrays.toString(insertX(a,s,pos,val)));
-		
-
 	}
 
 	private static int[] insertX(int[] a, int s, int pos, int val) {
