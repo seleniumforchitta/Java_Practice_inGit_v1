@@ -8,5 +8,11 @@ public class ForEach {
 		for (String name : names) {
 			System.out.print(name+", ");
 		}
+		
+		
+		int[] num = {10,23,43,45,67,76};
+		for(int i:num) {
+			System.out.println(i);
+		}
 	}
 }
