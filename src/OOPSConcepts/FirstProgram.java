@@ -1,4 +1,4 @@
-package javaPracticeWithAmbuja;
+package OOPSConcepts;
 
 public class FirstProgram {
 
