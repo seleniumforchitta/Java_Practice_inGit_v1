@@ -23,7 +23,7 @@ public class PrimeNumbers1 {
 			}
 		
 		}
-	System.out.println(arr.size());	
+	System.out.println(arr);	
 	}
 
 }
