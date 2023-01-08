@@ -6,7 +6,7 @@ public class DeleteDuplicatewordsinstatement {
 
 	public static void main(String[] args) {
 
-		String str = "Biswajit Beheravery is a very very Good Boy";
+		String str = "Biswajit Behera is a very very Good Boy very .";
 		String[] set;
 		set = str.split(" ");
 		String temp = "";

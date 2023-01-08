@@ -18,10 +18,11 @@ public class JumbledWordAddition {
 		
 		String s = "Bi123ch123nn";
 		String s1 = s.replaceAll("[^0-9]", ",");
-		String[] num = s1.split(",");	
+		System.out.println(s1);
+		String[] num = s1.split(",");
 		Integer temp = 0;
 		for (int i=0;i<num.length;i++) {
-			
+			System.out.println(num[i]);
 			if(!num[i].isEmpty())
 			{
 				temp = temp+Integer.valueOf(num[i]);

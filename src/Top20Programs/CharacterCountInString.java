@@ -9,7 +9,7 @@ public class CharacterCountInString {
 		
 		//int[] arr = {8,1,23,5,4,3,8,2,4,3,1,23,8,8,8,8,8,9};
 		
-		String arr = "This is a beutiful day";
+		String arr = "Chittaranjan Swain";
 		
 		Map<Character,Integer> map = new HashMap<Character, Integer>();
 		

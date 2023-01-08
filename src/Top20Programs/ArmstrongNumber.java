@@ -9,14 +9,19 @@ public class ArmstrongNumber {
 		
 		Scanner np = new Scanner(System.in);
 		int num = np.nextInt();
+		String numstr = Integer.toString(num);
+		int len = numstr.length();
 		int temp=0;
 		while(num>0)
 		{
-			temp = (int) (temp+(Math.pow((num%10), 3)));
+			temp = (int) (temp+(Math.pow((num%10), len)));
 			num=num/10;
 		}
 		
 		System.out.println(temp);
+		if(Integer.parseInt(numstr)==temp)
+			System.out.println(numstr+" is an Armstrong Number");
+		else System.out.println(numstr+" is not an Armstrong Number");
 
 	}
 
