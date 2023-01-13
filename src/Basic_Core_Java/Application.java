@@ -2,7 +2,7 @@ package Basic_Core_Java;
 
 public class Application {
 
-	public static strictfp final void main(String... args) {
+	public static void main(String[] args) {
 		
 		String info = "Hello";
 		System.out.println(info);
